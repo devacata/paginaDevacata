@@ -1,0 +1,35 @@
+body{
+    font-family: "GILL SANS" sans-serif;
+    background-image:url(image.png) ;
+    background-size: cover;/*ajusta la imagen para que cubra toda la pantalla*/
+    background-position: center;/*centra la imagen de fondo*/
+    background-repeat: no-repeat;/*evita que la imagen de fondo se repita*/
+    background-attachment:fixed ;/*mantiene la imagen fija al hacer scroll*/
+    height:100vh ;/*define la altura del cuerpo para que ocupe el 100% de la pantalla*/
+}
+
+.titulo{
+    color: rgb(135, 40, 86);/*dar color*/
+    font-size: 50px; /*tamaño*/
+    text-align: center;/*centrar*/
+}
+.nombre{
+    text-align: center;
+    font-size: 300%;
+}
+.correo{
+    text-align: center;
+    font-size: 300%;
+}
+.contraseña{
+    text-align: center;
+    font-size: 300%;
+}
+.registrarse{
+    text-align: center;
+    font-size: 300%;
+}
+.compras{
+    font-size: 400%;
+    background-color: rgb(181, 150, 150);
+}

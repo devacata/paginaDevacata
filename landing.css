@@ -1,0 +1,64 @@
+body{
+   font-size: 16px; 
+   font-family: poppins;
+   background-color: rgb(205, 232, 240);
+}
+
+header{
+    background-color: rgb(151, 201, 226);
+    color: rgb(248, 248, 248);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+select{
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+
+}
+
+.SERVICIOS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.nosotras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.ropahombre img{
+    width: 30%;
+    height: 30%;
+}
+.calzado img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover; /* Asegura que las imágenes mantengan sus proporciones */
+}
+.section{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}

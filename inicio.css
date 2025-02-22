@@ -1,0 +1,28 @@
+body{
+    font-family: "GILL SANS" sans-serif;
+    background-image:url(image-1.png) ;
+    background-size: cover;/*ajusta la imagen para que cubra toda la pantalla*/
+    background-position: center;/*centra la imagen de fondo*/
+    background-repeat: no-repeat;/*evita que la imagen de fondo se repita*/
+    background-attachment:fixed ;/*mantiene la imagen fija al hacer scroll*/
+    height:100vh ;/*define la altura del cuerpo para que ocupe el 100% de la pantalla*/
+}
+
+.titulo{
+    color: rgb(29, 103, 164);/*dar color*/
+    font-size: 50px; /*tamaño*/
+    text-align: center;/*centrar*/
+}
+.nombre{
+    text-align: center;
+    font-size: 300%;
+}
+
+.contraseña{
+    text-align: center;
+    font-size: 300%;
+}
+.iniciar_sesión{
+    text-align: center;
+    font-size: 300%;
+}
